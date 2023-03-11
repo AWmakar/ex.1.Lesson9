@@ -1,7 +1,7 @@
 package ru.netology.javaqa.radio;
 public class Radio {
-    public int radioStationNumber; // номер текткущей радиостанции
-    public int soundVolume; // громкость звука
+    private int radioStationNumber; // номер текткущей радиостанции
+    private int soundVolume; // громкость звука
 
     public int getRadioStationNumber() {
         return radioStationNumber;
