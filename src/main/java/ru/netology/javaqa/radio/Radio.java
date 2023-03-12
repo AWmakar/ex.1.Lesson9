@@ -18,12 +18,10 @@ public class Radio {
     }
 
     public int getMaxRadioStation() {
-
         return maxRadioStation;
     }
 
     public int getMinRadioStation() {
-
         return minRadioStation;
     }
 
@@ -72,7 +70,6 @@ public class Radio {
             return;
         }
         if (newSoundVolume > maxSoundVolume) {
-
             return;
         }
         soundVolume = newSoundVolume;
